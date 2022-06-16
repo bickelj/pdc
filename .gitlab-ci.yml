@@ -1,0 +1,9 @@
+# Initial/experimental gitlab-ci
+
+stages:
+    - test
+
+test:
+    stage: test
+    script:
+        - echo "Success!"
